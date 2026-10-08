@@ -1,28 +1,14 @@
-html::before {
-  content: 'CodePen ♥ The Web';
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-  margin: auto;
-  width: fit-content;
-  height: fit-content;
-  font-family: monospace;
-  opacity: 0.6;
-  background: rebeccapurple;
-  color: white;
-  padding: 4px 8px;
-  border-radius: 4px;
+h1 {text-align: center;
+color: maroon;
+font-family: arial;
+font-weight: bold;
+   }
+ul {list-style-type: none;
 }
-
-h1{text-align:center;
-   color :pink;
-   font-family:Times New Roman;
-   font-weight:bold;}
-
-p{fontsize:12px;}
-
-body {background-color:pink;border:4px solid pink; border-radius:10px;}
-
- ul{list-style-type:none;}
-
-li {display:inline;}
+body {background-color: pink;
+border: 5px solid gray;
+border-radius: 5px;
+     }
+li {display: inline;
+padding: 10px
+   }
